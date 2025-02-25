@@ -1,0 +1,22 @@
+Algoritmo Valor_S
+	Definir n,s Como Real
+	Escribir 'Digite un valor'
+	Leer n
+	Para i<-1 Hasta n Hacer
+		Si i MOD 3=0 Entonces
+			a <- -(i)
+			Escribir a
+		SiNo
+			Escribir i
+		FinSi
+	FinPara
+	s <- 0
+	Para i<-1 Hasta n Hacer
+		Si i MOD 3=0 Entonces
+			s <- s-i
+		SiNo
+			s <- s+i
+		FinSi
+	FinPara
+	Escribir 'El valor de S es: ',s
+FinAlgoritmo

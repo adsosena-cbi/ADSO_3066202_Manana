@@ -1,0 +1,3 @@
+Para: dara vueltas hasta que llegue al valor dicho
+Mientras: dara vueltas hasta que la condición sea verdadera
+Repita: dara vueltas hasta que la condición sea falsa

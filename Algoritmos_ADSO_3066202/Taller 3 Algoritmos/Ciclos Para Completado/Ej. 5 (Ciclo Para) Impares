@@ -1,0 +1,9 @@
+Algoritmo Impares
+	Escribir 'Digite un número para calcular los números impares'
+	Leer n
+	Para i<-0 Hasta n Hacer
+		Si i MOD 2==1 Entonces
+			Escribir i
+		FinSi
+	FinPara
+FinAlgoritmo

@@ -1,0 +1,11 @@
+Algoritmo Cálculo_Factorial
+	Escribir 'Digite un número para conocer su factorial'
+	Leer N
+	Multi <- 1
+	Para i<-0 Hasta N-1 Hacer
+		s <- (N-i)
+		Escribir s
+		Multi <- Multi*s
+	FinPara
+	Escribir 'El factorial de ',N,' es:',Multi
+FinAlgoritmo

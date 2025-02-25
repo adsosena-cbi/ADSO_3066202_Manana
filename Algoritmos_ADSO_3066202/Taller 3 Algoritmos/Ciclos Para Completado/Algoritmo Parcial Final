@@ -1,0 +1,17 @@
+Algoritmo Serie_S
+	Definir cont,i,Posicion Como Entero
+	cont <- 1
+	Posicion <- 2
+	Escribir 'Digite la posición numérica'
+	Leer n
+	Para i<-1 Hasta n Hacer
+		Si cont=Posicion Entonces
+			Posicion <- Posicion+1
+			cont <- 1
+			Escribir i*(-1)
+		SiNo
+			cont <- cont+1
+			Escribir i
+		FinSi
+	FinPara
+FinAlgoritmo

@@ -1,0 +1,21 @@
+Algoritmo Factorial_Serie_N
+	Escribir 'Digite'
+	Leer f
+	a <- 1
+	c <- 1
+	n <- 3
+	Para i<-1 Hasta f Hacer
+		Si a MOD 2<>0 Y a=n Entonces
+			n <- n+4
+			e <- 1/c
+			Escribir -e
+		SiNo
+			Si a MOD 2<>0 Entonces
+				e <- 1/c
+				Escribir e
+			FinSi
+		FinSi
+		a <- a+1
+		c <- c*a
+	FinPara
+FinAlgoritmo

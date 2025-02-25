@@ -1,0 +1,19 @@
+Algoritmo Factorial_Serie_N
+	Escribir 'Digite un número para dar la secuencia y factorial de la serie'
+	Leer n
+	Numerador <- 1
+	Denominador <- 2
+	Para i<-1 Hasta n Hacer
+		Factorial <- 1
+		Para J<-1 Hasta Denominador Hacer
+			Factorial <- Factorial*J
+		FinPara
+		Si i MOD 2=0 Entonces
+			Escribir '-',Numerador,'/',Factorial
+		SiNo
+			Escribir '+',Numerador,'/',Factorial
+		FinSi
+		Numerador <- Numerador+2
+		Denominador <- Denominador+2
+	FinPara
+FinAlgoritmo

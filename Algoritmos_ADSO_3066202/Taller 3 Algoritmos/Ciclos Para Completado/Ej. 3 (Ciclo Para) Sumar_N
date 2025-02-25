@@ -1,0 +1,10 @@
+Algoritmo Valor_N
+	Escribir 'Digite un número para finalizar la secuencia'
+	Leer n
+	suma <- 0
+	Para i<-1 Hasta n Hacer
+		suma <- suma+i
+		Escribir i
+	FinPara
+	Escribir 'La suma es: ',suma
+FinAlgoritmo
