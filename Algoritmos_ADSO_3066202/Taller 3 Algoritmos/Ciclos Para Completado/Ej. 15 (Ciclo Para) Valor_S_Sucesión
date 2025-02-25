@@ -1,8 +1,0 @@
-Algoritmo Sumas_Impar_Cuadrados
-	Escribir 'Digite un número y aparecerá la sucesión de los cuadrados Pares e Impares'
-	Leer N
-	Para i<-1 Hasta N Hacer
-		Ser <- i^2
-		Escribir Ser
-	FinPara
-FinAlgoritmo

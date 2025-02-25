@@ -1,9 +1,0 @@
-Algoritmo Imprimir_SENA
-	Escribir 'Digite un número'
-	Escribir 'y esta será la cantidad de veces'
-	Escribir 'que aparecera la palabra SENA'
-	Leer n
-	Para i<-1 Hasta n Hacer
-		Escribir 'Sena'
-	FinPara
-FinAlgoritmo
